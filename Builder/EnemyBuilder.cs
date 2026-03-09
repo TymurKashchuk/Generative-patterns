@@ -58,9 +58,9 @@ namespace Builder
             return this;
         }
 
-        public EnemyBuilder AddEvilDeed(string deed)
+        public EnemyBuilder AddEvilDeed(string evil)
         {
-            _character.EvilDeeds.Add(deed);
+            _character.EvilDeeds.Add(evil);
             return this;
         }
 
